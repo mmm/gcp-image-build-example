@@ -1,0 +1,5 @@
+{
+  "gcp_project_id": "<cool-project-123456>",
+  "gcp_account_file": "<path to application_default_credentials.json>"
+}
+
