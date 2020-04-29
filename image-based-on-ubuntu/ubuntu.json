@@ -2,7 +2,7 @@
   "variables": {
       "gcp_account_file": "",
       "gcp_project_id": "",
-      "gcp_image_name": "my-ubuntu-image"
+      "gcp_image_name": ""
     },
   "builders": [
     {
