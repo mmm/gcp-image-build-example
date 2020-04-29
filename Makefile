@@ -11,4 +11,4 @@ build: build_gcp
 build_gcp: timestamp := $(shell date +%s)
 build_gcp:
 	@echo "---" $@ "---"
-	@time packer build -var \'gcp_image_name=$(image_prefix)-$(timestamp)\' -var-file=variables.json gcp.json
+	@time packer build -var \'gcp_image_name=$(image_prefix)-$(timestamp)\' -var-file=variables.json image-based-on-ubuntu/ubuntu.json
