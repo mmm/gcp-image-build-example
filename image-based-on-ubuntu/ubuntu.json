@@ -26,7 +26,7 @@
     },
     {
       "type": "file",
-      "source": "files/",
+      "source": "image-based-on-ubuntu/files/",
       "destination": "/tmp/mloc-install/files"
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "type": "file",
-      "source": "scripts-bionic/",
+      "source": "image-based-on-ubuntu/scripts/",
       "destination": "/tmp/mloc-install/scripts/"
     },
     {
