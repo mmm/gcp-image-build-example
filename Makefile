@@ -1,9 +1,9 @@
 default: list
-image_prefix = "my-example-image"
+image_prefix = "my-example-ubuntu-image"
 
 list:
 	@echo "---" $@ "---"
-	@gcloud compute images list | grep $(image_prefix)
+	@gcloud compute images list | grep $(image_prefix) || true
 
 build: build_gcp
 	@echo "---" $@ "---"
