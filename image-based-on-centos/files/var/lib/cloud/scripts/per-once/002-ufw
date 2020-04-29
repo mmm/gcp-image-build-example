@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#ufw enable
+#ufw limit ssh
+#ufw allow 80/tcp # jupyterhub
+#ufw allow 443/tcp # jupyterhub
