@@ -46,3 +46,12 @@ The default `make` target lists images that match your `image_prefix`
     make
 
 
+## Customize your images
+
+Edit the contents of the `files/` and/or `scripts/` directories to customize
+your image build.  The simplest example of this is to add more packages by
+adding `yum install -y <package-name>` lines to
+`image-based-on-centos/scripts/010-packages`.
+
+For more complex installs, just add more (bash) scripts to that directory...
+the scripts in that directory are called in order by name.
